@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>style.qss</file>
+        <file>style1.qss</file>
+        <file>grid.png</file>
+        <file>fade.png</file>
+        <file>bobShadow.png</file>
+        <file>slidersBackground.png</file>
+    </qresource>
+</RCC>

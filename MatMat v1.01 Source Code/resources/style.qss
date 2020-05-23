@@ -1,0 +1,38 @@
+/**/QSlider:handle:horizontal { 
+	width: 24px; 
+	margin: -6px; 
+	border-radius: 12px; 
+	background: white; 
+}
+
+QSlider:handle:horizontal:hover { 
+    background: rgb(230, 250, 255);
+}
+
+QSlider:groove:horizontal {
+	height: 6px;
+	border-radius: 3px;
+}
+
+QSlider:add-page{
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #dddddd, stop:0.2 #ffffff);
+	border-radius: 3px;
+}
+
+QSlider:sub-page{
+	border-radius: 3px;
+}
+
+QPushButton{
+	background: #f04747;
+	border: none;
+}
+
+QPushButton:hover{
+	background: #c93b3b;
+}
+
+QPushButton:pressed{
+	background: #b03434;
+}
+

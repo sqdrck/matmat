@@ -1,0 +1,45 @@
+QSlider::handle:horizontal {
+    background: white;
+    border: none;
+    margin: -20px -20px; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */
+    border-radius: 19px;
+}
+
+QSlider::groove:horizontal { 
+	background: white;
+	border: none; 
+}
+
+QSlider:add-page{
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #dddddd, stop:0.2 #ffffff);
+}
+
+.QWidget{
+	background: white;
+}
+
+
+QProgressBar::chunk {
+    background-color: black;
+    width: 1px;
+}
+
+QLabel{
+	color: #808080
+}
+
+QPushButton{
+	background-color: none;
+	color: white;
+	border:none;
+	min-height: 50px;
+	font: bold 16px;
+}
+/*
+QPushButton:hover{
+	background-color: #606060;
+}
+*/
+QPushButton:pressed{
+	background-color: #404040;
+}
